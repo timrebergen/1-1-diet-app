@@ -1,0 +1,78 @@
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<ion-content id="container" [fullscreen]="true">
+  <ion-img src="assets/logoDiet.svg" class="logo"z></ion-img>
+  <ion-card style="margin: 40px auto;" class="logIn">
+    <h1>Naam</h1>
+    <ion-input class="inputField" id="name" ></ion-input>
+    <h1>Wachtwoord</h1>
+    <ion-input class="inputField" id="password" type="password"></ion-input>
+
+    <ion-button color="warning" shape="round" class="logInButton" href="/information" expand="block">Inloggen</ion-button>
+  </ion-card>
+<ion-card id="slogan">Afvallen doen wij<p>samen!</p></ion-card>
+
+</ion-content>
+<style>
+  @media screen and (max-width: 1200px) {
+    #slogan {
+      left: 65%;
+      top: 15%;
+      font-size: 48px;
+      max-width: 25%;
+    }
+  }
+  @media screen and (max-height: 1366px) {
+    #slogan {
+      left: 65%;
+      top: 5%;
+      font-size: 36px;
+      max-width: 25%;
+    }
+    #Title{
+      font-size: 48px;
+    }
+  }
+  @media screen and (max-height: 1024px) {
+    #Title {
+      font-size: 38px;
+    }
+  }
+  @media screen and (max-height: 653px) {
+    #slogan {
+      margin: 0 auto;
+      top: -5%;
+      max-width: 100%;
+    }
+  }
+  @media screen and (max-width: 653px) {
+    #slogan {
+      left: 5%;
+      top: 5%;
+      font-size: 32px;
+      max-width: 100%;
+    }
+    #Title{
+      font-size: 18px;
+    }
+    .logIn{
+      margin: 0;
+      padding: 15px;
+    }
+    .inputField, .logIn h1{
+      font-size: 18px;
+    }
+    .logInButton{
+      font-size: 14px
+    }
+  }
+  @media screen and (max-height: 736px){
+    #slogan{
+      display: none;
+    }
+  }
+</style>
+<script>
+</script>

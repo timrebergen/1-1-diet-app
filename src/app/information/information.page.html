@@ -1,0 +1,144 @@
+
+
+<ion-content id="container" [fullscreen]="true">
+  <ion-img src="assets/logoDiet.svg" class="logo" style="width: 50%; height: auto;"></ion-img>
+
+  <ion-slides slidesPerView="1.125" pager="true" #slides>
+    <ion-slide id="slideCompanyInfo">
+      <ion-card style="margin: 40px auto;" class="infoCard">
+        <ion-card-title style="margin-bottom: 15px;">Over ons</ion-card-title>
+        <ion-img src="assets/companyInfo.png" class="cardImage" style="max-width: 90%; height: auto; margin: 0 auto; padding: 0px"></ion-img>
+        <ion-card-content id="cardContentCompanyInfo">
+          The 1:1 Diet bestaat uit een geweldige, gepassioneerde en deskundige groep mensen.
+          Neem gerust contact met ons op!
+        </ion-card-content>
+        <ion-button (click)="slides.slideNext()">Volgende</ion-button>
+      </ion-card>
+    </ion-slide>
+
+    <ion-slide id="slideAppInfo">
+      <ion-card style="margin: 40px auto;" class="infoCard">
+        <ion-card-title style="margin-bottom: 15px;">Over de app</ion-card-title>
+        <ion-img src="assets/appInfo.png" class="cardImage" style="width: 90%; height: auto; margin: 0 auto; padding: 0px"></ion-img>
+        <ion-card-content id="cardContentAppInfo">
+          Je BMI berekenen, recepten bekijken en communiceren met je Consulent. Allemaal met de app van 1:1 Dieet.
+        </ion-card-content>
+        <ion-button (click)="slides.slideNext()">Volgende</ion-button>
+      </ion-card>
+    </ion-slide>
+
+    <ion-slide id="slideDiet">
+      <ion-card style="margin: 40px auto;" class="infoCard">
+        <ion-card-title style="margin-bottom: 15px;">Het 1:1 Dieët</ion-card-title>
+        <ion-img src="assets/dietInfo.JPG" class="cardImage" style="width: 90%; height: auto; margin: 0 auto; padding: 0px"></ion-img>
+        <ion-card-content id="cardContentCompany">
+          Kies je eigen consulent, hou je aan je plan en bestel de producten die je nodig hebt. Ready, set… go!
+        </ion-card-content>
+        <ion-button (click)="slides.slideNext()">Volgende</ion-button>
+      </ion-card>
+    </ion-slide>
+
+    <ion-slide id="slidePeopleInfo">
+      <ion-card style="margin: 40px auto;" class="infoCard">
+        <ion-card-title style="margin-bottom: 15px;">Evaringsverhalen</ion-card-title>
+        <ion-img src="assets/peopleInfo.png" class="cardImage" style="max-width: 80%; height: auto; margin: 0 auto; padding: 0px"></ion-img>
+        <ion-card-content id="cardContentPeopleInfo">
+          Ineke Hoeksema wist dat ze wat aan haar overgewicht moest en wilde doen. Maar...
+          <ion-button id="readMore" href="/stories">Lees meer</ion-button>
+        </ion-card-content>
+        <ion-button>Ga naar homepage</ion-button>
+      </ion-card>
+    </ion-slide>
+  </ion-slides>
+
+  <ion-tabs id="menu">
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="tab1">
+        <ion-icon name="triangle"></ion-icon>
+        <ion-label>Informatie</ion-label>
+      </ion-tab-button>
+
+      <ion-tab-button tab="tab2">
+        <ion-icon name="ellipse"></ion-icon>
+        <ion-label>Homepagina</ion-label>
+      </ion-tab-button>
+
+      <ion-tab-button tab="tab3">
+        <ion-icon name="square"></ion-icon>
+        <ion-label>BMI Berekenen</ion-label>
+      </ion-tab-button>
+
+      <ion-tab-button tab="tab4">
+        <ion-icon name="ellipse"></ion-icon>
+        <ion-label>Consulent</ion-label>
+      </ion-tab-button>
+    </ion-tab-bar>
+
+  </ion-tabs>
+
+</ion-content>
+
+
+
+
+<style>
+  @media screen and (max-width: 1200px) {
+    #slogan {
+      left: 65%;
+      top: 15%;
+      font-size: 48px;
+      max-width: 25%;
+    }
+  }
+  @media screen and (max-height: 1366px) {
+    #slogan {
+      left: 65%;
+      top: 5%;
+      font-size: 36px;
+      max-width: 25%;
+    }
+    #Title{
+      font-size: 48px;
+    }
+  }
+  @media screen and (max-height: 1024px) {
+    #Title {
+      font-size: 38px;
+    }
+  }
+  @media screen and (max-height: 653px) {
+    #slogan {
+      margin: 0 auto;
+      top: -5%;
+      max-width: 100%;
+    }
+  }
+  @media screen and (max-width: 653px) {
+    #slogan {
+      left: 5%;
+      top: 5%;
+      font-size: 32px;
+      max-width: 100%;
+    }
+    #Title{
+      font-size: 18px;
+    }
+    .logIn{
+      margin: 0;
+      padding: 15px;
+    }
+    .inputField, .logIn h1{
+      font-size: 18px;
+    }
+    .logInButton{
+      font-size: 14px
+    }
+  }
+  @media screen and (max-height: 736px){
+    #slogan{
+      display: none;
+    }
+  }
+</style>
+<script>
+</script>

@@ -1,0 +1,40 @@
+ion-content{
+  --ion-background-color:#E2E7E7;
+}
+
+#Title{
+  font-weight: bold;
+  color: #2D2F6D;
+  text-align: center;
+  margin-top: 55px;
+  margin-bottom: 15px
+}
+
+.infoCard01, .infoCard02, .infoCard03{
+  background-color: #E7BED8;
+  box-shadow: none;
+  max-width: 75%;
+  padding: 15px;
+  margin-bottom: 15px;
+  float: none;
+  border-radius: 12px;
+  min-height: 50px;
+  word-break: normal;
+  overflow: hidden;
+}
+
+#cardContent{
+  font-family: "Century Gothic";
+  text-align: center;
+  word-break: break-word;
+}
+
+.cardImage{
+  border-style: solid;
+  border-color: #7AC1FF;
+  border-width: 5px;
+}
+
+#cardContentAppInfo01, #cardContentAppInfo02, #cardContentAppInfo03{
+  font-size: 14px;
+}
