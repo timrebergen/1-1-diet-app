@@ -1,22 +1,25 @@
 ion-content{
-  --ion-background-color:#E2E7E7;
+  --ion-background-color:#F0F7FA;
 }
-#Title{
+.cardTitle{
+  font-family: "Londrina Solid";
   font-weight: bold;
-  color: #2D2F6D;
+  color: #EE559B;
   text-align: center;
-  margin-top: 55px;
+  margin-top: 10px;
   margin-bottom: 25px;
-
 }
+
 .infoCard{
-  background-color: #E7BED8;
+  background-color: #FFFFFF;
   box-shadow: none;
   max-width: 75%;
   padding: 15px;
   float: none;
   border-radius: 12px;
+  min-height: 455px;
 }
+
 ion-slides {
   --bullet-background: #DC6099;
   --bullet-background-active: #2B2E6B;
@@ -34,20 +37,17 @@ ion-slides {
   font-size: 14px;
 }
 
-.logIn h1{
-  font-weight: bold;
-  color: #2D2F6D;
-
-}.infoCard{
-   min-width: 80%;
-   min-height: 550px;
- }
 .cardImage{
+  border-radius: 10px;
   border-style: solid;
-  border-color: #7AC1FF;
-  border-width: 5px;
+  border-color: #E6E4E4;
+  border-width: 10px;
 }
 
+.ionCardContent{
+  font-family: "Roboto Slab";
+  color: #171B62;
+}
 .inputField{
   border-style: none;
   border-radius: 15px;

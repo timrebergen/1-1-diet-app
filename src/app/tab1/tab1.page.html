@@ -3,8 +3,9 @@
 </head>
 
 <ion-content id="container" [fullscreen]="true">
-  <ion-img src="assets/logoDiet.svg" class="logo"z></ion-img>
-  <ion-card style="margin: 40px auto;" class="logIn">
+  <ion-img src="assets/logoDiet.svg" class="logo"></ion-img>
+  <ion-card style="margin: 0px auto; transform: translateY(50%)" class="logIn">
+    <h1 id="slogan">Afvallen doen wij samen!</h1>
     <h1>Naam</h1>
     <ion-input class="inputField" id="name" ></ion-input>
     <h1>Wachtwoord</h1>
@@ -12,7 +13,6 @@
 
     <ion-button color="warning" shape="round" class="logInButton" href="/information" expand="block">Inloggen</ion-button>
   </ion-card>
-<ion-card id="slogan">Afvallen doen wij<p>samen!</p></ion-card>
 
 </ion-content>
 <style>

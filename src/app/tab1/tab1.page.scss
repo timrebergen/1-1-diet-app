@@ -1,5 +1,5 @@
 ion-content{
-  --ion-background-color:#E2E7E7;
+  --ion-background-color: white;
 }
 #Title{
   font-weight: bold;
@@ -8,7 +8,7 @@ ion-content{
   margin-top: 55px;
 }
 .logIn{
-  background-color: #E7BED8;
+  background-color: #F0F7FA;
   box-shadow: none;
   max-width: 75%;
   padding: 25px;
@@ -40,17 +40,12 @@ border-radius: 15px;
 }
 
 #slogan{
-  transform: rotate(-20deg);
-  top: 5%;
-  left: 70%;
-  position: relative;
-  box-shadow: none;
-  background: none;
-  text-align: center;
-  max-width: 15%;
-  font-size: 36px;
+  font-size: 16px;
+  font-family: "Londrina Solid";
   font-weight: bold;
-  color: #2D2F6D;
+  color: #EE559B;
+  text-align: center;
+  margin: 0 auto;
 }
 
 #slogan p{

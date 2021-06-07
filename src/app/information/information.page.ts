@@ -5,11 +5,10 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './information.page.html',
   styleUrls: ['./information.page.scss'],
 })
-export class InformationPage implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+export class InformationPage{
+  slideOpts = {
+    initialSlide: 0,
+    speed: 400,
+    allowTouchMove: false
+  };
 }
